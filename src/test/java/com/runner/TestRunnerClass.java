@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"src\\test\\resources"},glue= {"com.stepdefinition"},plugin= {"html:target1"})
+@CucumberOptions(features= {"src\\test\\resources"},glue= {"com.stepdefinition"},plugin= {"html:target"})
 public class TestRunnerClass {
 
 }
